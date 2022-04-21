@@ -16,7 +16,7 @@ func TestAdd(t *testing.T) {
 		t.Logf("Add(5, 6) Success. Expected %d, got %d\n", 11, result)
 	}
 }
-
+/*
 // Single TestCase
 func TestSub(t *testing.T) {
 	result := Sub(6, 5)
@@ -27,7 +27,7 @@ func TestSub(t *testing.T) {
 		t.Logf("Sub(6, 5) Success. Expected %d, got %d\n", 1, result)
 	}
 }
-
+*/
 func TestMultipleAdd(t *testing.T) {
 	testData := []AddData{
 		{1, 2, 3},
